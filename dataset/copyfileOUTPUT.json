@@ -1,5 +1,5 @@
 {
-	"name": "copyfileprop",
+	"name": "copyfileOUTPUT",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_copyfile",
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "adf_input.csv",
+				"folderPath": "output",
 				"container": "cont-dev"
 			},
 			"columnDelimiter": ",",
