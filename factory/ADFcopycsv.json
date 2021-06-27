@@ -1,0 +1,9 @@
+{
+	"name": "ADFcopycsv",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6ffa0327-0901-4f73-ac88-0cd136fc424f",
+		"tenantId": "235a61aa-abc6-4c65-965b-1f25c6a399db"
+	}
+}
