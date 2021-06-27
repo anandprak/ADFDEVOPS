@@ -49,13 +49,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "copyfileprop",
+						"referenceName": "copyfilepropINPUT",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "copyfileprop",
+						"referenceName": "copyfileOUTPUT",
 						"type": "DatasetReference"
 					}
 				]

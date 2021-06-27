@@ -1,0 +1,29 @@
+{
+	"name": "copyfilepropINPUT",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_copyfile",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "adf_input.csv",
+				"container": "cont-dev"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	}
+}
